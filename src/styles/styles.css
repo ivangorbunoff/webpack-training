@@ -1,0 +1,20 @@
+@import "~normalize.css"; /* тильда означает - брать из node modules */
+@import "./roboto.css";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding-top: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.test {
+    color: palegreen;
+}
